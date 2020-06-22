@@ -1,0 +1,41 @@
+<div class='tweet'>
+<div class='color-bar'></div>
+    <div class='summary'>
+        <div class='last-update'>
+            <span class='last-updated'>Created: </span>
+            <span class='date-time'>{{ this.datepipe.transform( localDate, 'MM-dd-yyyy @ h:mm a')  }}</span>
+        </div>
+        <div class='followers'>
+            <span class='last-updated'>Followers: </span>
+            <span class='date-time'>{{ tweet._source.SenderFollowersCount }}</span>
+        </div>      
+        <div class='title'>
+            <div class='logo'>
+                <img src="{{ tweet._source.SenderProfileImgUrl }}" onerror="this.style.display='none'">
+            </div>
+            <div class='screen-name'>
+                {{ tweet._source.SenderScreenName }}
+            </div>
+            <div class='listed-name'>
+                {{ tweet._source.SenderListedName }}
+            </div>
+        </div>     
+        <div class='location'>
+            <span class='date-time'>{{ tweet._source.Location }}</span>
+        </div>
+        
+        <div class='preview'>
+            {{ tweet._source.Message }}
+        </div>
+<!-- 
+        "Permalink": "https://twitter.com/show/status/1244705148896755714",
+        "Domain": "twitter.com",
+        "Retweets": "3.0",
+        "Tweet Generator": "Twitter Web App",
+        "Location": "New Hampshire, United States",
+        "Country": "United States",
+        "State": "New Hampshire",
+        "City": "nan", -->
+
+    </div>
+</div>

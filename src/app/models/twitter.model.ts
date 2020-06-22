@@ -1,0 +1,42 @@
+export interface TwitterModel {
+    _index: string,
+    _type: string,
+    _id: string,
+    _score: number,
+    _source: _source
+}
+
+export interface _source {
+    UniversalMessageId: string,
+    SocialNetwork: string,
+    SenderUserId: string,
+    SenderScreenName: string,
+    SenderListedName: string,
+    SenderProfileImgUrl: string,
+    SenderProfileLink: string,
+    SenderFollowersCount: string,
+    SenderInfluencerScore: string,
+    Message: string,
+    MessageType: string,
+    CreatedTime: string,
+    Language: string,
+    LanguageCode: string,
+    CountryCode: string,
+    MediaTypeList: string,
+    Permalink: string,
+    Domain: string,
+    Retweets: string,
+    "Tweet Generator": string,
+    Location: string,
+    Country: string,
+    State: string,
+    City: string,
+    Latitude: string,
+    Longitude: string,
+    SenderEmail: string,
+    CampaignName: string,
+    Sentiment: string,
+    ReviewSource: string,
+    isSpam: string,
+    Favorites: string
+}

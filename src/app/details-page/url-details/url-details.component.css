@@ -1,0 +1,255 @@
+#spinner {
+  stroke: gray;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  left: 50%;
+  right: 40%;
+}
+
+#scroll-history {
+  display: flex;
+  position: absolute;
+  top: 150px;
+  bottom: 200px;
+  left: 100px;
+  right: 100px;
+  overflow-x: auto;
+  /* width: 100%; */
+  overflow-y: auto;
+}
+
+/* #scroll-history::-webkit-scrollbar {
+  display: none;
+} */
+
+#dt {
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+#delta-table {
+  display: inline-block;
+  margin-right: 100px;
+  /* width: 100%; */
+  /* max-width: 1500; */
+  /* min-width: 1500; */
+  /* display:flex; */
+  /* width: 1000px; */
+  /* position: absolute;
+  top: 150px;
+  bottom: 120px;
+  left: 100px;
+  right: 100px;
+  overflow-x: scroll; */
+  /* align-items: center; */
+  /* overflow-y: scroll; */
+}
+
+#index {
+  /* position:absolute; */
+  /* padding-top: 30px; */
+  /* left: 500px; */
+  /* position: relative; */
+  align-content: center;
+  float: right;
+  padding-right: 20px;
+}
+
+#scroll-bar {
+  display: block;
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+  left: 100px;
+}
+a {
+  text-decoration: none;
+}
+
+#next {
+  font-size: 20px;
+  font-weight: 200;
+  color: #196ecf;
+  /* margin: 20px 0px; */
+  /* padding: 45px; */
+  /* background-image: url('../../assets/left-arrow.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 20px 12px; */
+  /* background-position: 20px 1px; */
+  cursor: pointer;
+  float: right;
+}
+
+#previous {
+  font-size: 20px;
+  font-weight: 200;
+  color: #196ecf;
+  cursor: pointer;
+  float: left;
+}
+
+table,
+thead,
+th,
+tbody,
+tr,
+td,
+colgroup {
+  border: solid 0px #eeeeee !important;
+}
+
+table {
+  /* width: 100% !important; */
+  margin: 0px !important;
+  font-family: sans-serif !important;
+  background-color: #eeeeee !important;
+  border-collapse: collapse !important;
+  min-height: 500px;
+  /* max-height: 500px; */
+  min-width: 1500px;
+  max-width: 1500px;
+  /* width:100%; */
+  /* right: 10px; */
+}
+
+table thead tr:nth-child(1) {
+  display: none;
+}
+
+table tr:nth-child(1) th {
+  font-size: 16px;
+  line-height: 30px;
+  background: #eeeeee !important;
+}
+
+table tr:nth-child(2) th {
+  font-size: 16px;
+  line-height: 30px;
+  background: white !important;
+}
+
+table td {
+  background-color: white !important;
+}
+
+table th,
+table td {
+  padding: 5px 20px;
+  text-align: left;
+}
+
+table.diff th:nth-child(1),
+table.diff td:nth-child(1),
+table.diff td:nth-child(1) a {
+  border-top: solid 0px white;
+  color: white;
+  background-color: white;
+  padding: 0px;
+  max-width: 0px;
+}
+
+table.diff tr:nth-child(1) th:nth-child(2) {
+  color: #959595;
+  padding: 0px;
+  border-bottom: solid 4px black !important;
+
+  width: 49%;
+  min-width: 49%;
+  max-width: 49%;
+}
+
+table.diff tr:nth-child(2) th:nth-child(2) {
+  border-top: solid 4px black !important;
+  border-bottom: solid 1px #959595 !important;
+}
+
+table.diff th:nth-child(3) {
+  width: 32px;
+  border-top: solid 4px #eeeeee !important;
+  border-bottom: solid 0px #eeeeee !important;
+}
+
+table.diff td:nth-child(2),
+table.diff td:nth-child(5) {
+  background-color: white !important;
+  color: white;
+  width: 0px;
+  max-width: 0px;
+  padding: 0px;
+}
+
+table.diff th:nth-child(3) {
+  background-color: #eeeeee !important;
+}
+
+table.diff tr:nth-child(1) th:nth-child(4) {
+  border-bottom: solid 4px orange !important;
+
+  width: 49%;
+  min-width: 49%;
+  max-width: 49%;
+}
+
+table.diff tr:nth-child(2) th:nth-child(4) {
+  border-top: solid 4px black !important;
+  border-bottom: solid 1px #959595 !important;
+
+  width: 49%;
+  min-width: 49%;
+  max-width: 49%;
+}
+
+table.diff td:nth-child(4),
+table.diff td:nth-child(4) a {
+  border-top: solid 0px #eeeeee !important;
+  color: #eeeeee !important;
+  background-color: #eeeeee !important;
+  padding: 0px;
+}
+
+table td {
+  color: #303030;
+  font-weight: 100;
+}
+
+table h2 {
+  line-height: 36px;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
+}
+
+table a,
+table a:active,
+table a:visited {
+  color: #505050;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+a,
+a:active,
+a:visited {
+  color: #316bbe;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.diff_add {
+  background-color: #6dd400;
+}
+
+.diff_chg {
+  background-color: #fff900;
+}
+
+.diff_sub {
+  background-color: rgba(227, 35, 21, 0.5);
+}
+
+br {
+  line-height: 0px;
+}

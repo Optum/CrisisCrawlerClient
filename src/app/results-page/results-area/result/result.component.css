@@ -1,0 +1,108 @@
+div.result
+{
+    position: relative;
+    background-color: white;
+    margin: 0px 100px 10px 0px;
+    border: solid 1px #C0C0C0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.color-bar
+{
+    height: 4px;
+    background: rgb(8,13,93);
+    background: linear-gradient(90deg, rgba(8,13,93,1) 0%, rgba(114,157,199,1) 100%);
+}
+
+div.summary
+{
+    display: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80%;
+    padding: 20px;
+}
+
+div.last-update
+{
+    font-size: 16px;
+    line-height: 30px;  
+}
+
+span.last-updated
+{
+    font-weight: bold;
+}
+
+div.relevancy
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #21B01E;
+}
+
+div.title
+{
+    margin: 10px 0px 5px 0px;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 36px;
+    color: #222222;
+}
+
+div.preview
+{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    height: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ 
+div.link
+{
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #196ECF;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: url('../../../../assets/link.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;    
+    padding-left: 20px;    
+}
+
+div.logo
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    margin: 20px;
+}
+
+div.logo img
+{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    width: 120px;
+}
+
+div.save
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 16px;
+    color: #196ECF;    
+    padding: 5px 0px 0px 20px;
+
+    background-image: url('../../../../assets/save-ribbon.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}

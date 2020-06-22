@@ -1,0 +1,65 @@
+div.title {
+    position: absolute;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin: 25px 0px 10px 0px;
+}
+
+div.row
+{
+    position: relative;
+    top: 0px;
+    left: 100px;
+    right: 0px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px;
+}
+
+div.check-column
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px; 
+    width: 30px;
+    line-height: 100%;
+}
+
+div.label-column
+{
+    position: absolute;
+    top: 2px;
+    bottom: 0px;
+    left: 30px; 
+    right: 0px;
+    line-height: 100%;
+}
+
+label 
+{
+    position: absolute;
+    font-size: 13px;
+    font-weight: normal;
+    color:black;
+}
+
+input 
+{
+    position: absolute;  
+}
+
+select {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 30px;
+    width: 150px;
+    color: #196ECF;
+    font-size: 16px;    
+    font-family: Arial;
+}

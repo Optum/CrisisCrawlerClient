@@ -1,0 +1,29 @@
+<div class='tweet' (click)='showDetails(tweet)'>
+<div class='color-bar'></div>
+    <div class='summary'>
+        <div class='last-update'>
+                <span class='last-updated'>Created: </span>
+                <span class='date-time'>{{ this.datepipe.transform( localDate, 'MM-dd-yyyy @ h:mm a')  }}</span>
+            </div>                 
+        <div class='relevancy' *ngIf="relevant == 1">
+            {{ (score * 100  / max_score).toFixed()}}% Relevancy Match
+        </div>
+        <div class='title'>
+            {{ tweet._source.SenderScreenName }}
+        </div>
+        <div class='preview'>
+            {{ tweet._source.Message }}
+        </div>
+        <div class="link" (click)='openNewTab(tweet._source.Permalink);'>
+            {{ tweet._source.Permalink }}
+        </div>
+    </div>
+
+    <div class='logo'>
+        <img src="{{ tweet._source.SenderProfileImgUrl }}" onerror="this.style.display='none'">
+        <div class='save'>
+            Save
+        </div>
+    </div>
+</div>
+    

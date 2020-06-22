@@ -1,0 +1,151 @@
+#results-area-in
+{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    right: 0px;
+    /* bottom: 100px; */
+    height: 1000px;
+    overflow-y: scroll;    
+    margin: -80px 0px 20px 10px;
+}
+
+#pagination-bar{
+    position: static;
+    /* top: 50px; */
+    padding-top: 10px;
+    bottom:100px;
+    right: 10px;
+    left: 0px;
+    height: 50px;
+    /* border: solid 3px red; */
+}
+
+img{
+    height: 15px;
+    width: 25px; 
+}
+
+#previous{
+    position: relative;
+    float: left;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+    color: #196ECF;
+}
+
+#pages{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 30%;
+    width: 152px;
+    max-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* border: solid 3px green; */
+}
+
+#page a{
+    cursor: pointer;
+    text-decoration: none;
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+    padding-right: 5px;
+    color: black;
+}
+
+
+.active, #page a.active{
+    color: rgb(12, 75, 146);
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#page a:visited{
+    color: #196ECF;
+    font: bold;
+}
+
+#page a:hover{
+    color: #196ECF;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #196ECF;
+    font: bold;
+}
+
+#ellipsis{
+    position: relative;
+    width: 10px;
+    /* float: right; */
+    margin: 0%;
+    /* top: 7px; */
+    left : 30%;
+    color: black;
+    /* border: solid 3px blue; */
+}
+
+#ellipsis:hover{
+    color: black;
+}
+
+
+#last{
+    position: relative;
+    left : 31%;
+    margin: 0px;
+    cursor: pointer;
+    /* border: solid 3px blue; */
+}
+
+
+#next{
+    position: relative;
+    float: right;
+    padding-right: 100px;
+    cursor: pointer;
+    font-size: 20px;
+  font-weight: 200;
+  color: #196ECF;
+}
+
+#next img{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    height: 15px;
+    width: 25px; 
+}
+
+div.spacer
+{
+    height: 90px;    
+}
+
+#no-results 
+{
+    position: relative;
+    background-color: white;
+    margin: 0px 100px 10px 0px;
+    border: solid 1px #C0C0C0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#spinner
+{
+    stroke: gray;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 40%;
+    right: 50%;
+}

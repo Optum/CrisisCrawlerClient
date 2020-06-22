@@ -1,0 +1,78 @@
+div.title {
+    position: relative;
+    top: 0px;
+    left: 100px;    
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    vertical-align: bottom;    
+}
+
+div.row
+{
+    position: relative;
+    top: 0px;
+    left: 100px;
+    right: 0px;
+    height: 32px;
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+div.check-column
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: -2px;
+    left: 0px; 
+    width: 30px;
+}
+
+div.label-column
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 30px; 
+    right: 0px;
+}
+
+label {
+    position: absolute;
+    bottom: 5px;
+    font-size: 13px;
+    color:black;
+}
+
+input 
+{
+    position: absolute;   
+}
+
+select {
+    width: 150px;
+    color: #196ECF;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    outline: none;    
+}
+
+.select-wrapper{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 30px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 7px;
+    display:inline-block;
+    overflow:hidden;
+    background: white;
+    border:1px solid #999999;
+  }

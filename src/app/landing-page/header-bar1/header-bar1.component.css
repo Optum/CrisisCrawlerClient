@@ -1,0 +1,98 @@
+#header
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 77px;
+    background-color: white;
+    /* box-shadow: 0px 7px 7px #D0D0D0; */
+    z-index: 5;
+}
+
+#uhg-logo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 220px;
+    border-right: solid 1px grey;
+    margin: 20px 0px;
+    background-image: url('../../../assets/uhg-logo.png');
+    background-repeat: no-repeat;
+    background-size: 175px;
+    background-position: 20px 12px
+}
+
+#header-text
+{
+    font-size: 16px;
+    /* font-weigh: 100 */
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    bottom: 0px;
+    width: 260px;
+    padding: 20px 0px 20px 30px;
+    line-height: 40px;
+    font-family: sans-serif
+    /* color: grey */
+}
+
+#static-component{
+    /* border: solid 3px green; */
+    position: relative;
+    top: 75px;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    min-width: 1320px;
+    z-index: 3;
+}
+
+#static-background
+{
+    position: absolute;
+    display: block;
+    /* top: 77px; */
+    /* left: 0px; */
+    /* right: 0px; */
+    width: 100%;
+    background-image: url('../../../assets/world_dotted_map.png');
+    background-position-x: center;
+    background-position-y: 40px;
+    /* background-size: 1350px 1100px; */
+    /* background-position:  center; */
+    background-color: #00396C;
+    background-blend-mode:lighten;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 500px;  
+    /* border: solid 3px red; */   
+    /* text-align: center; */
+}
+
+#Text-on-background
+{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    width: 692px;
+    height: 104px;
+    
+}
+
+h1
+{
+    font-size: 62px;
+    font-weight: 100;
+} 
+
+

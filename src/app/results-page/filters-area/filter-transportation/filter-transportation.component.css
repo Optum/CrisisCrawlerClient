@@ -1,0 +1,28 @@
+#filter-transportation
+{    
+    margin: 10px 0px 20px 40%;
+}
+
+div.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+}
+
+label {
+    line-height: 25px;
+    color: #196ECF;
+    margin: 10px;
+}
+
+select {
+    color: #196ECF;
+    font-size: 16px;
+    width: 90%;
+    height: 36px;
+    line-height: 40px;    
+    position: relative;
+    font-family: Arial;
+    margin: 5px 0px;
+}

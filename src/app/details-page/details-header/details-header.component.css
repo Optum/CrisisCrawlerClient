@@ -1,0 +1,145 @@
+#details-header
+{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    right: 100px;
+    height: 110px;
+    overflow: hidden;
+}
+
+#filter-bar
+{
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+    right: 120px;  
+    min-height: 20px;
+    overflow: hidden;
+}
+
+#filter-controls
+{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 100px;
+}
+
+#filters
+{
+    display: inline-block;
+    transform:rotate(180deg);       
+    -ms-transform:rotate(180deg);   
+    -webkit-transform:rotate(180deg);
+    text-align: right;
+    margin-right: 250px;
+}
+
+#controls
+{
+    position: absolute;
+    bottom: 1px;
+    display: inline-block;
+    margin-left: -250px;
+}
+
+#filters .filter
+{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #B0B0B0;
+    border-radius: 10px;
+    line-height: 14px;
+    height: 14px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+    transform:rotate(180deg);       
+    -ms-transform:rotate(180deg);   
+    -webkit-transform:rotate(180deg);
+}
+
+#clear-filters
+{
+    background-image: url('../../../assets/ex.png');
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+
+    padding-left: 21px;
+    margin-right: 5px;
+    color: #196ECF;
+    cursor: pointer;
+}
+
+#save-filters
+{
+    background-image: url('../../../assets/save-disc.png');
+    background-repeat: no-repeat;
+    background-position: 12px -1px;    
+    padding-left: 35px;
+    color: #196ECF;
+}
+
+div.title
+{
+    position: absolute;
+    top: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 120px;
+    line-height: 60px;
+    overflow: hidden;
+
+    font-size: 32px;
+    font-weight: 100;
+    color: #222222;
+}
+
+div.legend
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;    
+    right: 0px;
+    width: 120px;
+    padding: 12px 0px;
+    overflow: hidden;
+}
+
+div.key
+{
+    position: relative;
+    line-height: 30px;
+}
+
+div.box
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width:20px;
+  height: 20px;
+  margin: 0px 10px;
+}
+
+div.add
+{
+  background-color: #6DD400;
+}
+
+div.change
+{
+  background-color: #FFF900;
+}
+
+div.delete
+{
+  background-color: rgba(227,35,21,0.5);
+}

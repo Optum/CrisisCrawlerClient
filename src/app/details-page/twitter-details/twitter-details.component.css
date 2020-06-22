@@ -1,0 +1,137 @@
+div.tweet
+{
+    position: absolute;
+    top: 140px;
+    bottom: 120px;
+    left: 100px;
+    right: 100px;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.color-bar
+{
+    height: 4px;
+    background: rgb(8,13,93);
+    background: linear-gradient(90deg, rgba(8,13,93,1) 0%, rgba(114,157,199,1) 100%);
+}
+
+div.summary
+{
+    display: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+div.last-update
+{
+    font-size: 16px;
+    line-height: 30px;  
+    margin-bottom: 10px;
+}
+
+div.followers
+{
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 30px;  
+}
+
+div.location
+{
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+}
+
+span.last-updated
+{
+    font-weight: bold;
+}
+
+div.relevancy
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #21B01E;
+}
+
+div.title
+{
+    position: relative;    
+    display: inline-block;
+    width: 100%;
+    color: #222222;
+    margin: 10px 0px;    
+}
+
+div.logo
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px; 
+    background-color: #E0E0E0;
+    margin-right: 10px;
+}
+
+div.logo img
+{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    left: 0; 
+    border-radius: 25px;    
+    overflow: hidden;
+}
+
+div.title div.screen-name
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 0px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+div.title div.listed-name
+{
+    display: inline-block;
+    position: absolute;        
+    bottom: 2px;
+    left: 60px;
+    font-size: 16px;
+    line-height: 16px;    
+}
+
+div.preview
+{
+    position: absolute;
+    top: 190px;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    overflow: auto;
+}
+ 
+div.link
+{
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #196ECF;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: url('../../../assets/link.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;    
+    padding-left: 20px;    
+}

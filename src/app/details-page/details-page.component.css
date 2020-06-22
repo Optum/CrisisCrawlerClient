@@ -1,0 +1,57 @@
+#details-page
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 77px;
+    overflow: hidden;
+}
+
+div.link
+{
+    font-size: 14px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #196ECF;
+    cursor: pointer;
+    background-image: url('../../assets/link.png');
+    background-repeat: no-repeat;
+    background-position: 0px 12px;    
+    padding-left: 20px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.footer
+{
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    right: 100px;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: grey;
+    border-top: solid 1px grey;
+}
+
+div.footer div.links
+{    
+    display: inline-block;
+    width: 10%;
+    overflow: hidden;
+}
+
+div.footer div.copy
+{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    overflow: hidden;
+}

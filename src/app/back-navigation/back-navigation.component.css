@@ -1,0 +1,14 @@
+#back-navigation
+{
+    font-size: 13px;
+    font-weight: 100;
+    color: #196ECF;
+    height: 20px;    
+    margin: 20px 0px;
+    padding-left: 45px;
+    background-image: url('../../assets/left-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 20px 12px;
+    background-position: 20px 1px;
+    cursor: pointer;
+}

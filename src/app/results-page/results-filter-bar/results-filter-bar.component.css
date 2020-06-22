@@ -1,0 +1,142 @@
+#results-header
+{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    right: 0px;
+    height: 80px;
+    margin: 0px 110px 0px 10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #F0F0F0;
+    z-index: 2;
+}
+
+#filter-controls
+{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 395px;
+}
+
+#filters
+{
+    display: inline-block;
+    transform:rotate(180deg);       
+    -ms-transform:rotate(180deg);   
+    -webkit-transform:rotate(180deg);
+    text-align: right;
+    margin-right: 250px;
+    cursor: pointer;
+}
+
+#controls
+{
+    position: absolute;
+    bottom: 1px;
+    display: inline-block;
+    margin-left: -250px;
+}
+
+#filters .filter
+{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #B0B0B0;
+    border-radius: 10px;
+    line-height: 14px;
+    height: 14px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+    transform:rotate(180deg);       
+    -ms-transform:rotate(180deg);   
+    -webkit-transform:rotate(180deg);
+}
+
+#clear-filters
+{
+    background-image: url('../../../assets/ex.png');
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+
+    padding-left: 21px;
+    margin-right: 5px;
+    color: #196ECF;
+    cursor: pointer;
+}
+
+#save-filters
+{
+    background-image: url('../../../assets/save-disc.png');
+    background-repeat: no-repeat;
+    background-position: 12px -1px;    
+    padding-left: 35px;
+    color: #196ECF;
+}
+
+#sorts
+{
+    position: absolute;
+    bottom: 5px;
+    right: 80px;
+    width: 320px;
+}
+
+span.label
+{
+    font-weight: 100;
+}
+
+#relevance
+{
+    padding-left: 10px;
+    color: #196ECF;
+}   
+
+#orderby
+{
+    margin-left: 10px;
+    color: #196ECF;
+}
+
+#saves
+{
+    font-weight: 100;
+    position: absolute;
+    bottom: 7px;
+    right: 0px;
+    width: 110px;
+    padding-left: 20px;
+    border-left: solid 1px #C0C0C0;
+}
+
+#save-icon
+{
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    width: 30px;
+    height: 28px;
+    background-image: url('../../../assets/save-ribbon.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}
+
+select
+{
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 10px;
+    color: #196ECF;   
+    border: none;
+    outline: none;
+    background-color: transparent;     
+}

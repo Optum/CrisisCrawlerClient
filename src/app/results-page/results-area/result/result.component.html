@@ -1,0 +1,29 @@
+<div class='result' (click)='showDetails(result)'>
+    <div class='color-bar'></div>
+    <div class='summary'>
+        <div class='last-update'>
+            <span class='last-updated'>Last Updated: </span>
+            <span class='date-time'>{{ this.datepipe.transform( localDate, 'MM-dd-yyyy @ h:mm a')  }}</span>
+        </div>        
+        <div class='relevancy' *ngIf="relevant == 1">
+            {{ (score * 100  / max_score).toFixed()}}% Relevancy Match
+        </div>
+        <div class='title'>
+            {{ result._source.previewText?result._source.previewText.title:"" }}
+        </div>
+        <div class='preview'>
+            {{ result._source.previewText?result._source.previewText.description:"" }}
+        </div>
+        <div class="link" (click)='openNewTab(result._source.url);'>
+            {{ result._source.url }}
+        </div>
+    </div>
+
+    <div class='logo'>
+        <img src="{{ result._source.previewText?result._source.previewText.image:'' }}" onerror="this.style.display='none'">
+        <div class='save'>
+            Save
+        </div>
+    </div>
+</div>
+

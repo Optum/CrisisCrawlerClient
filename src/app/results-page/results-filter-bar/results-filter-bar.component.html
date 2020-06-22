@@ -1,0 +1,30 @@
+<div id='results-header'>
+    <div id='filter-controls'>
+        <div id='filters'>
+            <span class='filter' *ngIf='this.filterBarModel.useState' (click)='unUseState()'>{{ this.filterBarModel.selectedState }}</span>
+            <span class='filter' *ngIf='this.filterBarModel.useCounty' (click)='unUseCounty()'>{{ this.filterBarModel.selectedCounty }}</span>  
+            <ng-template ngFor let-article [ngForOf]='this.filterBarModel.articles'>
+                <span class='filter' *ngIf='this.filterBarModel.useArticle[article]' (click)='unUseArticle(article)'>{{ article }}</span>  
+            </ng-template>
+            <ng-template ngFor let-channel [ngForOf]='this.filterBarModel.channels'>
+                <span class='filter' *ngIf='this.filterBarModel.useChannel[channel]' (click)='unUseChannel(channel)'>{{ channel }}</span>  
+            </ng-template>
+        </div>
+        <div id='controls'>
+            <span id='clear-filters' (click)='unUseAllFilter()'>Clear Filters</span>
+            <span id='save-filters'>Save Filters</span>
+        </div>
+    </div>
+
+    <div id='sorts'>
+        <span class='label'>Sort by:</span>
+        <select (change)='sortByChanged($event.target.value)'>
+            <option *ngFor='let sortBy of this.filterBarModel.sortBys; index as i' [value]='i' [attr.selected]="sortBy.displayName == selector ? true: null">{{ sortBy.displayName }}</option>                     
+        </select>
+    </div>
+
+    <div id='saves'>
+        <span class='label'>By saved:</span>
+    </div>
+    <div id='save-icon'></div>
+</div>

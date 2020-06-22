@@ -1,0 +1,128 @@
+#header-bar
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 77px;
+    background-color: white;
+    box-shadow: 0px 7px 7px #D0D0D0;
+    z-index: 3;
+}
+
+#uhg-logo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 220px;
+    border-right: solid 1px grey;
+    margin: 20px 0px;
+    background-image: url('../../assets/UHG(R)_RGB.png');
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: 12px 3px;
+    cursor: pointer;
+}
+
+#search
+{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    bottom: 0px;
+    width: 320px;
+    padding: 20px 0px 20px 30px;
+    line-height: 40px;
+
+    background-image: url('../../assets/search.jpg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 320px 30px    
+}
+
+#search input
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #196ECF;
+    width: 320px;
+    height: 30px;
+    background-color: transparent;
+}
+
+::placeholder
+{
+    color: #196ECF;
+    opacity: 1;
+}
+
+:-ms-input-placeholder
+{
+    color: #196ECF;
+}
+
+::-ms-input-placeholder
+{
+    color: #196ECF;
+}
+
+#map
+{
+    color: #196ECF;
+
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    bottom: 0px;
+    width: 280px;
+    margin: 0px;
+    line-height: 77px;
+
+    background-image: url('../../assets/header-map.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 100px 10px;
+    cursor: pointer; 
+}
+
+#cases
+{
+    font-size: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 320px;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    line-height: 40px;
+    border-left: solid 1px grey;
+    cursor: pointer;
+}
+
+#label
+{
+    font-size: 14px;
+    position: absolute;
+    top: 23px;
+    right: 0px;
+    bottom: 40px;
+    width: 185px;  
+    color: grey;
+    cursor: pointer;
+}
+
+#updated
+{
+    font-size: 14px;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    bottom: 0px;
+    width: 185px;
+    color: grey;
+    cursor: pointer;
+}

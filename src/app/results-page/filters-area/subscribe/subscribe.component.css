@@ -1,0 +1,12 @@
+#subscribe
+{    
+    margin: 10px 10% 20px 100px;
+    border-top: solid 1px black;
+}
+
+div.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #196ECF;
+    margin: 20px 0px;
+}

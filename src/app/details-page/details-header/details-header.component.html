@@ -1,0 +1,34 @@
+<back-navigation text='Crisis Intelligence Tracker Results' url='/results'></back-navigation>   
+<div id='details-header'>
+
+    <div id='filter-bar'>
+        <div id='filters'>
+            <span class='filter' *ngIf='this.filterBarModel.useState'>{{ this.filterBarModel.selectedState }}</span>
+            <span class='filter' *ngIf='this.filterBarModel.useCounty'>{{ this.filterBarModel.selectedCounty }}</span>  
+            <ng-template ngFor let-article [ngForOf]='this.filterBarModel.articles'>
+                <span class='filter' *ngIf='this.filterBarModel.useArticle[article]'>{{ article }}</span>  
+            </ng-template>
+            <ng-template ngFor let-channel [ngForOf]='this.filterBarModel.channels'>
+                <span class='filter' *ngIf='this.filterBarModel.useChannel[channel]'>{{ channel }}</span>  
+            </ng-template>
+        </div>
+        <div id='controls'>
+            <span id='save-filters'>Save Filters</span>
+        </div>
+    </div>
+
+    <div class='title'>
+        {{ title }}
+    </div>
+    <div *ngIf='showLegend' class='legend'>
+        <div class='key'>
+            Added<div class='add box'></div>
+        </div>
+        <div class='key'>
+            Changed<div class='change box'></div>            
+        </div>
+        <div class='key'>
+            Deleted<div class='delete box'></div>            
+        </div>                
+    </div>
+</div>
