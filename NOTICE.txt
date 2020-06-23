@@ -1,0 +1,23 @@
+Copyright 2020 Optum
+
+Project Description:
+====================
+
+Crisis Crawler tool to crawl through CDC websites related to any crisis related information updates like covid-19
+
+Authors:
+========
+
+@devasudan - Developer and Project lead
+Satinder Saini K   - Developer and Tech lead
+Robert Walsh   - Developer
+@anshusahu - Himanshu Sahu  - Developer
+Sanjana Mukherjee - Developer
+@nuclode - ayush Rawat  - Developer
+@p-oshea - engineer and git/github
+
+
+
+
+©Optum 2020
+© 2020 GitHub, Inc.
