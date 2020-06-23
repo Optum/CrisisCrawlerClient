@@ -9,14 +9,12 @@ Authors:
 ========
 
 @devasudan - Developer and Project lead
-Satinder Saini K   - Developer and Tech lead
-Robert Walsh   - Developer
-@anshusahu - Himanshu Sahu  - Developer
-Sanjana Mukherjee - Developer
-@nuclode - ayush Rawat  - Developer
+@ssaini14 - Satinder Saini K  
+@MonkeyFighter - Robert Walsh  
+@anshusahu - Himanshu Sahu 
+@sanjanamukherjee - Sanjana Mukherjee
+@nuclode - ayush Rawat 
 @p-oshea - engineer and git/github
-
-
 
 
 ©Optum 2020
