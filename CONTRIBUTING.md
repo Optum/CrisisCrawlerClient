@@ -1,10 +1,10 @@
-# Contributing to *CrisCrawler Client*
+# Contributing to *CrisisCrawler Client*
 
 ## Introduction
 
-### Welcome to project barista!
+### Welcome to project CrisisCrawler Client!
 
->Thank you for considering a contribution to *barista*. Your support of this project will assist the broader open source community as we strive to provide tools and information leading to better license compliance, acknowledgment of intellectual property rights, and reduction of vulnerabilities in our code.
+>Thank you for considering a contribution to *CrisisCrawler Client*. Your support of this project will assist the broader open source community as we strive to provide tools and information leading to better license compliance, acknowledgment of intellectual property rights, and reduction of vulnerabilities in our code.
 
 # Contribution Guidelines
 
